@@ -1,13 +1,7 @@
-import time
-
 from selenium.webdriver.common.by import By
-
 from links import *
-
 from base.base_page import BasePage
 
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 class loginPage(BasePage):
     NAME_INPUT = (By.CSS_SELECTOR, "input[name='username']")

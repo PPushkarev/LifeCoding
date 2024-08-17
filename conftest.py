@@ -1,6 +1,3 @@
-
-
-
 import datetime
 import allure
 import pytest

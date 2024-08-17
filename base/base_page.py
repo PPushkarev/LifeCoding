@@ -1,6 +1,4 @@
 from distutils.cmd import Command
-
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from conftest import driver

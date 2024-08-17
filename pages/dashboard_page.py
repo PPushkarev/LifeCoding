@@ -1,11 +1,6 @@
-import time
-
 from selenium.webdriver.common.by import By
-
 from links import *
-
 from base.base_page import BasePage
-
 class DashboardPage(BasePage):
     PAGE_URL = Links.DASHBOARD
 

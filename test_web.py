@@ -1,9 +1,6 @@
 from base.base_test import Basetest
-import time
-
 import allure
 import pytest
-
 from conftest import driver
 from pages.dashboard_page import DashboardPage
 from pages.login_page import loginPage

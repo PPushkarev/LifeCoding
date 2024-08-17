@@ -1,5 +1,4 @@
 import pytest
-
 from pages.dashboard_page import DashboardPage
 from pages.login_page import loginPage
 from pages.personal_page import PersonalPage
