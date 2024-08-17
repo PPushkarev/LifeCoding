@@ -18,9 +18,6 @@ def precondition(driver):
 
 
 class Test_feature(Basetest):
-
-
-
     @allure.feature('Testing login to the Website')
     class Test_loginonce:
         @allure.title('Checking login page')
